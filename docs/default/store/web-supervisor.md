@@ -54,6 +54,8 @@ The PixelBuy web supervisor retrieves information from a site compatible with Pi
 />
 ```
 
+If you don't want to build the site yourself, [PixelCraft](https://github.com/ricodevvv/pixelcraft) is a Next.js store that already speaks this API, and its admin panel generates the config below for you.
+
 This supervisor also came with its own configuration.
 
 ```yaml

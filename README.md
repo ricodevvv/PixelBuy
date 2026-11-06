@@ -24,8 +24,13 @@ Some people who want an independent donation handling made plugins to provide a 
 PixelBuy aims to be a solution for server owners who want a customizable donation system independently of hosting services, with a centralized database.
 
 ## Features
+* Self-hosted web store ready to deploy, see [PixelCraft](https://github.com/ricodevvv/pixelcraft).
 * Handle multiple stores at the same time.
 * Customizable delivery executions.
 * Wide support with custom items plugins.
 * Multi-host compatibility with donation executions.
 * Offline player support.
+
+## Web store
+
+[PixelCraft](https://github.com/ricodevvv/pixelcraft) is a Next.js store that speaks the PixelBuy web API out of the box: catalog, cart, Stripe checkout and an admin panel. Deploy it on Vercel or with Docker, add your server in the admin, paste the generated config into `store.yml` and you're selling.
